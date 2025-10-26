@@ -1,4 +1,3 @@
-
 name = input("Enter your name: ")
 
 odd = 0
