@@ -2,7 +2,7 @@
 name = input("Enter your name: ")
 
 odd = 0
-num = "" #More like a list
+num = ""
 yes = True
 
 while yes == True:
