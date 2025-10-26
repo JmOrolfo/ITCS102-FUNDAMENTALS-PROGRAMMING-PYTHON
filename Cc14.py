@@ -18,5 +18,5 @@ while yes == True:
         print("EVEN number detected!")
         print("Skipping...")
         continue
-print(f"Total of all ODD number: {odd}")
-print(f"All ODD number: {num}")
+print(f"Total of all ODD numbers: {odd}")
+print(f"All ODD numbers: {num}")
