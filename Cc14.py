@@ -20,4 +20,3 @@ while yes == True:
         continue
 print(f"Total of all ODD number: {odd}")
 print(f"All ODD number: {num}")
-5
