@@ -1,12 +1,12 @@
 #SIS 
 
 import os 
-
+import json
 S_Record = {}
 
 true = True
 
-print('Welcome Student!')
+print ('STUDENT ACCOUNT')
 
 while True:
     print("SELECT FROM THE OPTION BELOW : \nA - Add Information \nB - Search Records \nC - Modify Record \nD - Delete record \nS - Show Records \nE - Exit ")
@@ -14,7 +14,7 @@ while True:
     choice = input ("Your Choice : ").upper()
     os.system('cls')
 
-#Student Information
+#CREATING ACCOUNT
     if choice == 'A':
         print('ADDING STUDENT INFORMATION')
         print("-------------------------------")
@@ -32,7 +32,7 @@ while True:
         os.system('cls')
         continue
 
-#Search Record
+#SEARCHING RECORD
     elif choice == 'B':
         os.system('cls')
         srch = input('Enter Student Number: ').lower()
@@ -43,25 +43,46 @@ while True:
 
                 for i in S_Record[srch]:
                     print(f'-- {i}')
+
             else:
                 print('Record not found')
-        os.system('cls')
-        
+        continue
 
+# MODIFY / EDIT RECORD
     elif choice =='C':
         os.system('cls')
-        for id in S_Record.keys():
-            print
+        srch = input('Enter Student Number: ').lower()
+
+        for id in S_Record.items():
+            if srch in S_Record.keys():
+                print('RECORD FOUND')
+
+                for i in S_Record[srch]:
+                    print(f'-- {i}')
+                    
+                f_name = input('Enter NEW First Name: ').upper()
+                l_name = input('Enter NEW Last Name: ').upper()
+                course = input('Enter NEW Course: ').upper()
+                email = input("Enter NEW Email Address: ")
+
+                S_Record[srch][0] = f_name
+                S_Record[srch][1] = l_name
+                S_Record[srch][2] = course
+                S_Record[srch][3] = email
+
+            else:
+                print('Record not found')
         continue
-    
-    elif choice =='D':
+
+#DELETING RECORD
+    elif choice =='D':  
         os.system('cls')
         print('Select Existing Record')
         srch = input('Enter Student Number: ').lower()
 
         for id in S_Record.keys():
             if srch in S_Record.keys():
-                print (f"Student ID{id} in Student Record {record}")
+                print (f"Student ID{id} in Student Record {S_Record}")
 
                 for i in S_Record[srch]:
                     print(f'-- {i}')
@@ -69,14 +90,36 @@ while True:
                 print('Record not found')
         continue
     
-    elif choice =='S':
+    elif choice =='E':
         os.system('cls')
         print("Loading Records... ")
-        for id , record in S_Record.keys():
-            print(f"Student ID{id} in Student Record {record}")
+
+        for id in S_Record.keys():
+            print(f"Student ID{id} in Student Record {S_Record}")
         continue
-    
-    elif choice =='E':
+
+    elif choice == 'F':
+        os.system('cls')
+        print('IMPORT RECORD')  #pang save
+
+        with open ('STUDENT_RECORD.json', 'r') as new_file:
+            student_json = json.load(new_file)
+
+        S_Record = student_json
+        print('RECORD IMPORTED')
+
+    elif choice == 'G':
+        os.system('cls')
+        print('EXPORT RECORD') #pang awan 
+
+        with open ('STUDENT_RECORD.json', 'w') as new_file:
+            student_json = json.load(new_file)
+
+        S_Record = student_json
+        print('RECORD EXPORTED')
+
+    elif choice =='X':
+
         pass
         break
         
