@@ -1,3 +1,5 @@
+#Anime Watch list Dictionary
+
 print('Adding anime in watchlist')
 
 li = {}
@@ -43,3 +45,4 @@ while true == True:
     else:
         print('Error')
         break
+
