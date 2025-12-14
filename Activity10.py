@@ -1,3 +1,4 @@
+#Discount Calculation using 'if/else'
 
 print("---------------------------")
 print("--WELCOME to Item Counter--")
