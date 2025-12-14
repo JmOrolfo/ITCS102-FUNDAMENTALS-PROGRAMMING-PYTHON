@@ -1,3 +1,5 @@
+#List Fundamentals and Iteration 
+
 li = ['ham', 'egg', 'bacon', 'sausage']#list
 li.append('hotdog')#Add
 print(li)
@@ -15,3 +17,4 @@ for fn in fname:
 print("\nReversed\n")
 for n in fname [::-1]:
     print(n)
+
