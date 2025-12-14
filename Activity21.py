@@ -1,3 +1,5 @@
+#While loop
+
 notFull = True
 while notFull == True:
     more=input('Do you want to add more ? (yes or no) :').lower()
@@ -12,3 +14,4 @@ while notFull == True:
     else:
         print("Invalid")
         continue
+
