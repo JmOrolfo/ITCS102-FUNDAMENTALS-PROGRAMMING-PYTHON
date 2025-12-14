@@ -1,3 +1,5 @@
+#Temperature Analizer 
+
 temp = eval(input(" Enter Temperature --> "))
 
 if temp <= 1:
@@ -20,3 +22,4 @@ elif temp >= 50:
 
 else:
 	print("invalid temperature")
+
