@@ -1,3 +1,5 @@
+#Simple input/output
+
 def activity1():
   name = (input("Enter your name: "))
 def activity2():
