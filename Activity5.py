@@ -1,7 +1,10 @@
-something = eval(input("Input Something ->"))
+#Evaluating input using Arithmetic Operations
 
-print("The data type of something is" , type(something))
+num = eval(input("Input something->"))
+
+print("The data type of something is" , type(some))
 
 answer = 8 + something 
 
 print("the answer is ", answer)
+
