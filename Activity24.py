@@ -1,3 +1,5 @@
+#Function Def and Reuse
+
 def greeter(name):
     print(f"Hello {name}, How are you ? ")
 
@@ -14,3 +16,4 @@ greeter("Axel")
 summation(24)
 summation(8)
 summation(11)
+
