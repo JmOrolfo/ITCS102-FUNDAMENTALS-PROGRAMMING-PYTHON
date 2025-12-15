@@ -1,5 +1,8 @@
 #DICTIONARY
-programming_language = {'ez': 'py' , 'med':'java' , 'hard' : 'C++' }
+def Activity26():
+    programming_language = {'ez': 'py' , 'med':'java' , 'hard' : 'C++' }
 
-print(programming_language['med'])
+    print(programming_language['med'])
+
+
 
