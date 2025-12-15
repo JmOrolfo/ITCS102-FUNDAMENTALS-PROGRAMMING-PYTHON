@@ -61,7 +61,7 @@ while true == True:
         if act == '1':
             print("Welcome to ACTIVITIES(1-5)")
             print("1 - ACTIVITY(1)\n2 - ACTIVITY(2)\n3 - ACTIVITY(3)\n4 - ACTIVITY(4)\n5 - ACTIVITY(5)")
-            act1 = input("Enter your choice: "
+            act1 = input("Enter your choice: ")
             
             if act1 == '1':
                 print(f"You choose {act1}")
@@ -361,16 +361,16 @@ while true == True:
     elif choi == "C":
         print("Would you like to continue? :")
         x = input("Y - YES\nN - NO").upper()
-        if x == 'YES':
+        if x == 'Y':
             print("Continuing...")
             continue
         
-        elif x == 'NO':
+        elif x == 'N':
             print('Thanks for using my program, Buhbyee!')
             break
         
         else:
-            print("Error Input")
+            print("Invalid Choice")
             print("Try Again...")
             continue
 
