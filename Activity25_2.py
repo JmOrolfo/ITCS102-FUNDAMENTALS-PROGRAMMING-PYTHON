@@ -1,5 +1,4 @@
 #Final Program
-
 from Activity1 import Activity1
 from Activity2 import Activity2
 from Activity3 import Activity3
@@ -23,25 +22,25 @@ from Activity20 import Activity20
 from Activity21 import Activity21
 from Activity22 import Activity22
 from Activity23 import Activity23
-from Activity24_1 import Activity241
+from Activity24_1 import Activity24_1
 from Activity24 import Activity24
 from Activity25 import Activity25
-from Activity25_1 import Activity251
-from CC1 import code1
-from CC2 import code2
-from CC3 import code3
-from CC4 import code4
-from CC5 import code5
-from CC6 import code6
-from CC7 import code7
-from CC8 import code8
-from CC9 import code9
-from CC10 import code10
-from CC11 import code11
-from CC12 import code12
-from CC13 import code13
-from CC14 import code14
-from CC15 import code15
+from Activity25_1 import Activity25_1
+from CC1 import CC1
+from CC2 import CC2
+from CC3 import CC3
+from CC4 import CC4 
+from CC5 import CC5
+from CC6 import CC6
+from CC7 import CC7
+from CC8 import CC8
+from CC9 import CC9
+from CC10 import CC10
+from CC11 import CC11
+from CC12 import CC12
+from CC13 import CC13
+from CC14 import CC14
+from CC15 import CC15
 
 print("Hello, Welcome to Matrix AI")
 name = input ("What should I call you? : ")
@@ -64,12 +63,16 @@ while true == True:
             act1 = input("Enter your choice: ")
             
             if act1 == '1':
+                
+
+                print('My basic personal info')
                 print(f"You choose {act1}")
                 print(f"Running Activity {act1}")
                 Activity1()
                 continue
         
             elif act1 == '2':
+                print('Interactive greeting program')
                 print(f"You choose {act1}")
                 print(f"Running Activity {act1}")
                 Activity2()
@@ -127,7 +130,7 @@ while true == True:
                 print(f"Running Activity {act2}")
                 Activity10()
                 continue
-           
+        
         elif act == '3':
             print("Welcome to ACTIVITIES(11-15)")
             print("11 - ACTIVITY(11)\n12 - ACTIVITY(12)\n13 - ACTIVITY(13)\n14 - ACTIVITY(14)\n15 - ACTIVITY(15)")
@@ -373,6 +376,7 @@ while true == True:
             print("Invalid Choice")
             print("Try Again...")
             continue
+        print('-----------------------------------')
 
 
 
