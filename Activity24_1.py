@@ -1,9 +1,10 @@
 #Importing Functions
+def Activity24_1():
+    from Activity24 import greeter, summation
 
-from activity24 import greeter, summation
-
-greeter("Guevara")
-greeter("Baby ko")
-summation(30)
-summation(4)
+    greeter("Guevara")
+    greeter("Baby ko")
+    summation(30)
+    summation(4)
+    print('----------------------------------------------')
 
