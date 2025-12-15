@@ -133,7 +133,7 @@ while true == True:
             print("11 - ACTIVITY(11)\n12 - ACTIVITY(12)\n13 - ACTIVITY(13)\n14 - ACTIVITY(14)\n15 - ACTIVITY(15)")
             act3 = input("Enter your choice: ")
             
-            elif act3 == '11':
+            if act3 == '11':
                 print(f"You choose {act3}")
                 print(f"Running Activity {act3}")
                 Activity11()
@@ -168,7 +168,7 @@ while true == True:
             print("16 - ACTIVITY(16)\n17 - ACTIVITY(17)\n18 - ACTIVITY(18)\n19 - ACTIVITY(19)\n20 - ACTIVITY(20)")
             act4 = input("Enter your choice: ")
             
-            elif act4 == '16':
+            if act4 == '16':
                 print(f"You choose {act4}")
                 print(f"Running Activity {act4}")
                 Activity16()
@@ -203,7 +203,7 @@ while true == True:
             print("21 - ACTIVITY(21)\n22 - ACTIVITY(22)\n23 - ACTIVITY(23)\n24 - ACTIVITY(24)\n24.1 - ACTIVITY(24_1)\n25 - ACTIVITY(25)\n25.1 - ACTIVITY(25_1)")
             act5 = input("Enter your choice: ")
             
-            elif act5 == '21':
+            if act5 == '21':
                 print(f"You choose {act5}")
                 print(f"Running Activity {act5}")
                 Activity16()
@@ -366,7 +366,7 @@ while true == True:
             continue
         
         elif x == 'NO':
-            print('Thanks, Buhbyee!')
+            print('Thanks for using my program, Buhbyee!')
             break
         
         else:
