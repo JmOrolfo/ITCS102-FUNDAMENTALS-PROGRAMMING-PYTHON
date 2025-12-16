@@ -1,4 +1,5 @@
 #Final Program
+#def Activity25_2():
 from Activity1 import Activity1
 from Activity2 import Activity2
 from Activity3 import Activity3
@@ -233,7 +234,7 @@ while true == True:
             elif act5 == '24.1':
                 print(f"You choose {act5}")
                 print(f"Running Activity {act5}")
-                Activity241()
+                Activity24_1()
                 continue
             
             elif act5 == '25':
@@ -245,7 +246,7 @@ while true == True:
             elif act5 == '25.1':
                 print(f"You choose {act5}")
                 print(f"Running Activity {act5}")
-                Activity251()
+                Activity25_1()
                 continue
             
     elif choi == 'B':
@@ -263,31 +264,31 @@ while true == True:
             if cc1 == '1':
                 print(f"You choose {cc1}")
                 print(f"Running Code challenge {cc1}")
-                code1()
+                CC1()
                 continue
             
             elif cc1 == '2':
                 print(f"You choose {cc1}")
                 print(f"Running Code challenge {cc1}")
-                code2()
+                CC2()
                 continue
             
             elif cc1 == '3':
                 print(f"You choose {cc1}")
                 print(f"Running Code challenge {cc1}")
-                code3()
+                CC3()
                 continue
                         
             elif cc1 == '4':
                 print(f"You choose {cc1}")
                 print(f"Running Code challenge {cc1}")
-                code4()
+                CC4()
                 continue
             
             elif cc1 == '5':
                 print(f"You choose {cc1}")
                 print(f"Running Code challenge {cc1}")
-                code5()
+                CC5()
                 continue
                 
         elif cc == '2':
@@ -298,31 +299,31 @@ while true == True:
             if cc2 == '6':
                 print(f"You choose {cc2}")
                 print(f"Running Code challenge {cc2}")
-                code6()
+                CC6()
                 continue
             
             elif cc1 == '7':
                 print(f"You choose {cc2}")
                 print(f"Running Code challenge {cc2}")
-                code7()
+                CC7()
                 continue
             
             elif cc2 == '8':
                 print(f"You choose {cc2}")
                 print(f"Running Code challenge {cc2}")
-                code8()
+                CC8()
                 continue
                         
             elif cc2 == '9':
                 print(f"You choose {cc2}")
                 print(f"Running Code challenge {cc2}")
-                code9()
+                CC9()
                 continue
             
             elif cc2 == '10':
                 print(f"You choose {cc2}")
                 print(f"Running Code challenge {cc2}")
-                code10()
+                CC10()
                 continue
             
         elif cc == '3':
@@ -333,37 +334,37 @@ while true == True:
             if cc3 == '11':
                 print(f"You choose {cc3}")
                 print(f"Running Code challenge {cc3}")
-                code6()
+                CC11()
                 continue
             
             elif cc3 == '12':
                 print(f"You choose {cc3}")
                 print(f"Running Code challenge {cc3}")
-                code12()
+                CC12()
                 continue
             
             elif cc3 == '13':
                 print(f"You choose {cc3}")
                 print(f"Running Code challenge {cc3}")
-                code13()
+                CC13()
                 continue
                         
             elif cc3 == '14':
                 print(f"You choose {cc3}")
                 print(f"Running Code challenge {cc3}")
-                code14()
+                CC14()
                 continue
             
             elif cc3 == '15':
                 print(f"You choose {cc3}")
                 print(f"Running Code challenge {cc3}")
-                code15()
+                CC15()
                 continue
             
         continue
     elif choi == "C":
         print("Would you like to continue? :")
-        x = input("Y - YES\nN - NO").upper()
+        x = input("Y - YES\nN - NO\nEnter Choice: ").upper()
         if x == 'Y':
             print("Continuing...")
             continue
@@ -376,14 +377,3 @@ while true == True:
             print("Invalid Choice")
             print("Try Again...")
             continue
-        print('-----------------------------------')
-
-
-
-
-
-
-
-
-
-
