@@ -20,6 +20,8 @@ def CC5():
 
 		
 		print("Here are the recommended" ,l ,g, am, "from" ,c)
+	else:
+		print("Invalid Input, try again")
+		continue
 		
-	for ikot in range (1, 21):
-		print(ikot, "madami")
+	
